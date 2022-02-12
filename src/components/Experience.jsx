@@ -1,4 +1,4 @@
-import data from "../data/experience.json"
+import data from "../data/experience"
 import { TimelineContent } from "./Timeline/TimelineContent"
 import { TimelineImage } from "./Timeline/TimelineImage"
 import { TimelinePoint } from "./Timeline/TimelinePoint"
@@ -18,9 +18,10 @@ export const Experience = () => {
                     <TimelinePoint element={<TimelineImage src={experience.company_logo} />} />
                     <TimelineContent
                         onLeft={shouldAlignLeft(index)}
-                        title={experience.date}
-                        subTitle={experience.heading}
-                        content={experience.content} />
+                        header={experience.date}
+                        title={experience.designation}
+                        subTitle={experience.company}
+                        content={experience.description} />
                 </div>
             ))}
         </div>
