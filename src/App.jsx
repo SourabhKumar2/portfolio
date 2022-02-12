@@ -1,7 +1,9 @@
+import { Experience } from "./components/Experience";
+
 const App = () => {
     return (
         <div>
-            Hello Sourabh
+            <Experience />
         </div>
     );
 }
