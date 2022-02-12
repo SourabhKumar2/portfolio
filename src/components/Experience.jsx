@@ -1,5 +1,7 @@
 import data from "../data/experience.json"
-import { Card } from "./Card"
+import { TimelineContent } from "./Timeline/TimelineContent"
+import { TimelineImage } from "./Timeline/TimelineImage"
+import { TimelinePoint } from "./Timeline/TimelinePoint"
 
 export const Experience = () => {
     const shouldAlignLeft = (rowId) => {
@@ -13,18 +15,12 @@ export const Experience = () => {
             ></div>
             {data.experiences.map((experience, index) => (
                 <div className="relative z-10">
-                    <img
-                        src={experience.image}
-                        alt=""
-                        className="timeline-img"
-                    />
-                    <div className={`timeline-container ${shouldAlignLeft(index) ? "timeline-container-left": ""}`}>
-                        <div className={`timeline-pointer ${shouldAlignLeft(index) ? "timeline-pointer-left": ""}`} aria-hidden="true"></div>
-                        <Card header={experience.date}>
-                            <h1 className="text-2xl font-bold pt-1">{experience.heading}</h1>
-                            <p className="pt-1">{experience.content}</p>
-                        </Card>
-                    </div>
+                    <TimelinePoint element={<TimelineImage src={experience.company_logo} />} />
+                    <TimelineContent
+                        onLeft={shouldAlignLeft(index)}
+                        title={experience.date}
+                        subTitle={experience.heading}
+                        content={experience.content} />
                 </div>
             ))}
         </div>

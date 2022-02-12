@@ -1,25 +1,25 @@
 {
     "experiences": [
         {
-            "image": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
+            "company_logo": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
             "date": "Jan 2022",
             "heading": "An Amazing website",
             "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ullam ipsam. At cupiditate accusantium optio repudiandae pariatur fugiat necessitatibus, aut doloremque saepe ex iste rem distinctio veniam doloribus aliquid dolor."
         },
         {
-            "image": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
+            "company_logo": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
             "date": "Jan 2021",
             "heading": "An Amazing website",
             "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ullam ipsam. At cupiditate accusantium optio repudiandae pariatur fugiat necessitatibus, aut doloremque saepe ex iste rem distinctio veniam doloribus aliquid dolor."
         },
         {
-            "image": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
+            "company_logo": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
             "date": "Jan 2020",
             "heading": "An Amazing website",
             "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ullam ipsam. At cupiditate accusantium optio repudiandae pariatur fugiat necessitatibus, aut doloremque saepe ex iste rem distinctio veniam doloribus aliquid dolor."
         },
         {
-            "image": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
+            "company_logo": "https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100",
             "date": "Jan 2019",
             "heading": "An Amazing website",
             "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ullam ipsam. At cupiditate accusantium optio repudiandae pariatur fugiat necessitatibus, aut doloremque saepe ex iste rem distinctio veniam doloribus aliquid dolor."
